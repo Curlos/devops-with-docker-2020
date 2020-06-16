@@ -1,0 +1,8 @@
+Secret Message: "Docker is easy"
+
+Commands given {
+    1: 'docker run -d --name onefour devopsdockeruh/exec_bash_exercise',
+    2: 'docker start onefour',
+    3: 'docker exec -it onefour bash'
+    4: 'tail -f ./logs.txt
+}
