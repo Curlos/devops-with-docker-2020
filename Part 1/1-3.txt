@@ -1,0 +1,7 @@
+Commands given to get secret message {
+
+'Start image with flags': "docker run -it devopsdockeruh/pull_exercise",
+'Give me the password': "basics",
+'Secret message': "This is the secret message"
+
+}
