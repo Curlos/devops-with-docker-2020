@@ -1,4 +1,6 @@
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
-1782dd5692ea        nginx               "/docker-entrypoint.…"   28 seconds ago      Exited (0) 10 seconds ago                       competent_hopper
-ec2010de1f16        nginx               "/docker-entrypoint.…"   34 seconds ago      Exited (0) 6 seconds ago                        blissful_germain
-9448f30e6321        nginx               "/docker-entrypoint.…"   40 seconds ago      Up 38 seconds               80/tcp              kind_varahamihira
+// Output for docker ps -a
+
+CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS                      PORTS               NAMES
+2c847bf4defa        nginx               "/docker-entrypoint.…"   About a minute ago   Exited (0) 16 seconds ago                       strange_almeida
+5cec07ded9c0        nginx               "/docker-entrypoint.…"   About a minute ago   Exited (0) 12 seconds ago                       distracted_dirac
+e1122ce11fa7        nginx               "/docker-entrypoint.…"   About a minute ago   Up About a minute           80/tcp              nervous_keller
