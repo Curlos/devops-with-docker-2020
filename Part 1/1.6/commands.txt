@@ -1,0 +1,7 @@
+//Builds and runs a clock that starts counting from 1 and increments indefinitely
+
+Commands {
+    docker build -t docker-clock .
+    docker run docker-clock
+    docker run docker-clock -c
+}
