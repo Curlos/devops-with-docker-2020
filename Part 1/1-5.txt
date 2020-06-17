@@ -1,0 +1,17 @@
+// Run the curl command, did not work because it isn't installed yet
+
+1st command attempted {
+    docker run --name ubu ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://helsinki.fi;'
+}
+
+// Tried installing curl by itself before running the curl command
+
+2nd command attempted {
+    docker run --name ubu ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; apt-get -y install curl; curl http://helsinki.fi;'
+}
+
+//Needed to run apt-get update before installing curl, so all the packages would have their latest updates
+
+3rd and final command attempted that worked {
+    docker run --name ubu ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; apt-get update; apt-get -y install curl; curl http://helsinki.fi;'
+}
